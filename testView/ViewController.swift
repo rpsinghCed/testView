@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var webView: UIWebView!
+    
+    //ViewDid load fuction
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        UserDefaults.standard.register(defaults: ["UserAgent": "LALALAAALAL"])
